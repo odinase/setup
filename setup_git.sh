@@ -18,4 +18,4 @@ echo
 cat ~/.ssh/id_rsa.pub
 
 # Setup GNOME keyring
-git config --global credential.helper /usr/share/doc/git/contrib/credential/gnome-keyring/git-credential-gnome-keyring
+git config --global credential.helper /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret

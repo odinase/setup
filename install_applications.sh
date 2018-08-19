@@ -54,5 +54,7 @@ $WD/gnome-shell-extension-installer 8 --yes       # PlacesStatusIndicator
 sudo apt install cmake make -y
 
 # Install GNOME keyring
-sudo apt install libgnome-keyring-dev
-
+sudo apt-get install libsecret-1-0 libsecret-1-dev -y
+cd /usr/share/doc/git/contrib/credential/libsecret
+sudo make
+cd $WD
