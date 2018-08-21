@@ -50,7 +50,7 @@ $WD/gnome-shell-extension-installer 118 --yes     # NoTopLeftHotCorner
 $WD/gnome-shell-extension-installer 723 --yes     # PixelSaver
 $WD/gnome-shell-extension-installer 8 --yes       # PlacesStatusIndicator
 $WD/gnome-shell-extension-installer 484 --yes     # WorkspaceGrid
-$WD/gnome-shell-extension-installer 28 --yes      # gTile
+$WD/gnome-shell-extension-installer 657 --yes     # Shelltile
 
 # Install common developing tools
 sudo apt install cmake make -y
