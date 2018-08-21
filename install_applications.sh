@@ -49,6 +49,7 @@ $WD/gnome-shell-extension-installer 921 --yes     # MultipleMonitorAddOn
 $WD/gnome-shell-extension-installer 118 --yes     # NoTopLeftHotCorner
 $WD/gnome-shell-extension-installer 723 --yes     # PixelSaver
 $WD/gnome-shell-extension-installer 8 --yes       # PlacesStatusIndicator
+$WD/gnome-shell-extension-installer 484 --yes     # WorkspaceGrid
 
 # Install common developing tools
 sudo apt install cmake make -y
