@@ -33,7 +33,7 @@ snap install spotify --classic
 snap install slack --classic
 
 # Install gnome-tweak-tool
-sudo apt-get install gnome-tweak-tool -y
+sudo apt-get install gnome-tweak-tool chrome-gnome-shell -y
 
 # Install gnome extensions
 wget https://github.com/brunelli/gnome-shell-extension-installer/releases/download/v1.6.2/gnome-shell-extension-installer -P $WD
