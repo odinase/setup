@@ -5,8 +5,13 @@ if [[ $EUID -eq 0 ]]; then
    exit 1
 fi
 
-MAIL="aasm.eek@gmail.com"
-git config --global user.name "Åsmund Eek"
+# Get user email and name
+echo "Enter email address: "
+read MAIL
+echo "Enter user name: "
+read NAME
+
+git config --global user.name $NAME
 git config --global user.email $MAIL
 
 # Generate new SSH key
