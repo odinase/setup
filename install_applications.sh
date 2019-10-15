@@ -53,10 +53,11 @@ cd $WD
 
 # Install neovim
 sudo apt install neovim
-echo 'alias vim='nvim'' >> ~/.bashrc
-echo 'alias vim-config='vim ~/.config/nvim/init.vim'' >> ~/.bashrc
+echo "alias vim='nvim'" >> ~/.bashrc
+echo "alias vim-config='vim ~/.config/nvim/init.vim'" >> ~/.bashrc
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+cd ~/.config && git clone git@github.com:odinase/nvim.git && cd $WD
 vim +PlugInstall +qall > /dev/null
 
 # Install redshift
